@@ -12,6 +12,8 @@ Internet → ALB → ASG (EC2 Instances in Private Subnets) → Nginx Servers
     Health Checks
 ```
 
+<img width="11628" height="9820" alt="Image" src="https://github.com/user-attachments/assets/a2dd2ee1-1539-4bc5-8a0f-b998b39384ee" /> 
+
 **Key Components:**
 - Custom VPC with 3 public and 3 private subnets across multiple AZs
 - Application Load Balancer for traffic distribution
